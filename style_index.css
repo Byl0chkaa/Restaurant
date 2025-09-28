@@ -267,6 +267,7 @@ footer .user-answ-form{
     height: 365px;
     border-radius: 20px;
     border: 3px solid #f8f0e3;
+    margin: 10px auto;
 }
 
 footer #form-footer{
@@ -331,13 +332,25 @@ footer #form-footer button:hover{
 footer hr{
     width: 90%;
     border: 2px solid #f8f0e3;
+    margin: 40px auto;
 }
+
 footer .social-media{
     display: flex;
-    gap: 10px;
+    align-items: center;
+    gap: 40px;
     margin-left: 30px;
+    margin-bottom: 40px;
 }
 footer .social-media img{
     width: 30px;
     height: 30px;
+}
+footer .rights{
+    display: flex;
+    font-size: 14px;
+    margin-right: auto;
+    margin-left: 78px;
+    margin-top: auto;
+    align-self: flex-start;
 }
