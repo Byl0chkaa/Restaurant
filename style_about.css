@@ -235,6 +235,42 @@ main {
     color: #f8f0e3;
 }
 
+.section-cooking-process {
+    padding: 80px 0;
+    background: rgba(248, 240, 227, 0.03);
+}
+
+.processing {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.processing h2 {
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 50px;
+    color: #f8f0e3;
+    text-align: center;
+}
+
+.video {
+    width: 100%;
+    max-width: 900px;
+    height: 500px;
+    border-radius: 15px;
+    box-shadow: 1px 1px 25px 0 rgba(255, 240, 240, 0.1);
+    border: 2px solid rgba(248, 240, 227, 0.1);
+    transition: all 0.3s ease;
+}
+
+.video:hover {
+    box-shadow: 1px 1px 35px 0 rgba(255, 240, 240, 0.2);
+    border-color: rgba(248, 240, 227, 0.3);
+    transform: scale(1.01);
+}
+
 /* Team Section */
 .section-team {
     padding: 80px 0;
@@ -299,6 +335,7 @@ main {
     margin-bottom: 5px;
     color: #f8f0e3;
 }
+
 
 /* Developer Section */
 .section-developer {
