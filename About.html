@@ -5,7 +5,7 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Про нас</title>
+    <title>Про нас - The Gilded Hour</title>
     <link rel="stylesheet" href="reset.css">
     <link rel="stylesheet" href="style_about.css">
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -13,26 +13,32 @@
     <link rel="icon" type="image/png" sizes="16x16" href="favicon/favicon-16x16.png">
 </head>
 <body>
+<!--HEADER-->
 <header>
     <div class="header-content">
         <div class="logo">
             <h2>The Gilded</h2>
             <p>.hour</p>
         </div>
-        <nav>
+
+        <!-- Desktop Navigation -->
+        <nav class="desktop-nav">
             <ul>
                 <li><a href="index.html">Головна</a></li>
-                <li><a href="About.html">Про нас</a></li>
                 <li><a href="Menu.html">Меню</a></li>
-                <li><a href="Services.html">Наші послуги</a></li>
+                <li><a href="Services.html">Послуги</a></li>
+                <li><a href="About.html">Про нас</a></li>
             </ul>
-            <button class="button-contacts">
-                Контакти
-                <img src="img/phone.png" alt="">
-            </button>
+            <a href="Contacts.html">
+                <button class="button-contacts">
+                    <img src="img/phone.png" alt="Phone">
+                    Контакти
+                </button>
+            </a>
         </nav>
-    </div>
+    </div>>
 </header>
+<!--HEADER-->
 
 <main>
     <section class="section-hero">
@@ -111,6 +117,7 @@
     <section class="section-team">
         <div class="container">
             <h2>Наша команда</h2>
+            <div class="divider"></div>
             <div class="team-grid">
                 <div class="team-member">
                     <div class="member-photo">
@@ -137,6 +144,7 @@
                     <p>Досвід роботи: 12 років</p>
                 </div>
             </div>
+            <div class="divider"></div>
         </div>
     </section>
 
@@ -165,7 +173,7 @@
                             <li>
                                 <a href="https://www.linkedin.com/in/%D0%B2%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D1%81%D0%B0%D0%BA%D0%B0%D0%BB%D0%BE-173269385/">LinkedIn</a>
                             </li>
-                            <li><p class="email">Email: viktoriia-olha.sakalo.pp.2024@lpnu.ua</p></li>
+                            <li><p class="email">Email: <a href="mailto:viktoriia-olha.sakalo.pp.2024@lpnu.ua">viktoriia-olha.sakalo.pp.2024@lpnu.ua</a></p></li>
                         </ul>
                     </div>
                 </div>
@@ -173,6 +181,65 @@
         </div>
     </section>
 </main>
+<footer>
+    <div class="footer-container">
+        <div class="social-media">
+            <a href="https://www.instagram.com/_.byl04ka._/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="24" height="24"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     class="lucide lucide-instagram">
+                    <rect width="20" height="20" x="2" y="2" rx="5" ry="5"/>
+                    <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"/>
+                    <line x1="17.5" x2="17.51" y1="6.5" y2="6.5"/>
+                </svg>
+            </a>
+            <a href="https://www.facebook.com/viktoria.sakalo.2025/" target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="24" height="24"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     class="lucide lucide-facebook">
+                    <path d="M18 2h-3a5 5 0 0 0-5 5v3H7v4h3v8h4v-8h3l1-4h-4V7a1 1 0 0 1 1-1h3z"/>
+                </svg>
+            </a>
+            <a href="https://www.linkedin.com/in/%D0%B2%D1%96%D0%BA%D1%82%D0%BE%D1%80%D1%96%D1%8F-%D1%81%D0%B0%D0%BA%D0%B0%D0%BB%D0%BE-173269385/"
+               target="_blank">
+                <svg xmlns="http://www.w3.org/2000/svg"
+                     width="24" height="24"
+                     viewBox="0 0 24 24"
+                     fill="none"
+                     stroke="currentColor"
+                     stroke-width="2"
+                     stroke-linecap="round"
+                     stroke-linejoin="round"
+                     class="lucide lucide-linkedin">
+                    <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-4 0v7h-4v-7a6 6 0 0 1 6-6z"/>
+                    <rect width="4" height="12" x="2" y="9"/>
+                    <circle cx="4" cy="4" r="2"/>
+                </svg>
+            </a>
+        </div>
 
+        <div class="visa">
+            <img src="img/visa.png" alt="Visa" style="height: 60px;">
+            <img src="img/mastercard.png" alt="Mastercard">
+        </div>
+        <div class="contacts-footer">
+            <p>Email: <a href="mailto:info@gildedhour.com">info@gildedhour.com</a></p>
+            <p>Телефон: <a href="tel:+380501234567">+38 (050) 123-45-67</a></p>
+        </div>
+        <p class="rights">&copy; The Gilded Hour, all rights reserved 2025</p>
+    </div>
+</footer>
 </body>
 </html>
